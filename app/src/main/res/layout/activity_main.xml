@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#87ceeb"
+    tools:context="com.example.android.alehouseapp.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/alehouse"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orlando Ale House Sports Bar"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:padding="8dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/NameView" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 12784 Alafaya Rd, Orlando FL 32828"
+        android:layout_weight="0"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="2dp"
+        android:id="@+id/addressView"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business Hours: Sun-Th 10AM-12Pm, Fri-Sat 1PM-2AM"
+        android:layout_weight="0"
+        android:paddingTop="0dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="2dp"
+        android:id="@+id/hoursView"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: (407)378-2845"
+        android:layout_weight="0"
+        android:paddingTop="0dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+        android:id="@+id/phoneView"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join us for good food, good friends and good sports"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:paddingTop="0dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+        android:id="@+id/messageView"
+        android:textSize="14sp" />
+
+</LinearLayout>
